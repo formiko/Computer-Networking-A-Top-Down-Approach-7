@@ -19,3 +19,6 @@
 * IP协议定义了在路由器和端系统之间发送和接收的分组格式
 * 因特网的主要协议统称为**TCP/IP**
 * **因特网标准**（Internet standard）由因特网工程任务组（Internet Engineering Task Force，IETF）研发。IETF的标准文档称为**请求评论**（Request For Comment，RFC）。RFC最初只是普通的请求评论（因此而得名）
+## 1.1.2 服务描述
+* 应用程序设计多个相互交换数据的端系统，称它们为**分布式应用程序**（distributed application）
+* 与因特网相连的端系统提供了一个**套接字接口**（socket interface），该接口规定了交付数据的方式，是一套发送程序必须遵循的规则集合。
